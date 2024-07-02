@@ -1,5 +1,4 @@
 # TransportCompany-MySQL
-This project encompasses a comprehensive database model developed in MySQL, showcasing example queries, a database schema.
 În acest proiect, am dezvoltat o bază de date relațională pentru gestionarea activităților unei companii de transport, care include gestionarea șoferilor, camioanelor, rutelor, clienților și comenzilor. Proiectul a acoperit toate etapele esențiale ale dezvoltării bazei de date, de la definirea tabelelor și a relațiilor dintre acestea, până la manipularea și interogarea datelor.
 1. Crearea și Popularea Tabelelor
 Am creat cinci tabele esențiale (Soferi, Camioane, Rute, Clienti, Comenzi), fiecare cu coloane specifice pentru a stoca informații detaliate. Aceste tabele au fost populate cu date inițiale pentru a permite testarea funcționalităților.
