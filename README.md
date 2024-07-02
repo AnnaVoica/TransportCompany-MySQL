@@ -11,11 +11,6 @@ Am abordat metodele de revenire la starea inițială a datelor după diverse ope
 5. Manipularea Datelor cu DML
 Am folosit instrucțiuni DML (INSERT, DELETE, UPDATE, SELECT) pentru a adăuga, elimina, modifica și selecta date din tabele. Aceasta a permis să se gestioneze în mod eficient datele din baza de date.
 6. Interogarea Datelor cu DQL
-Am utilizat diverse tehnici de interogare:
-● SELECT * pentru a obține toate datele din tabele.
-● SELECT pe coloane specifice pentru a obține informații detaliate.
-● Filtrări cu WHERE, LIKE, AND, OR, NOT pentru a extrage date relevante.
-● Funcții agregate (AVG, SUM, COUNT, MAX, MIN) pentru a realiza analize sumative.
-● Grupare și filtrare cu GROUP BY și HAVING.
+Am utilizat diverse tehnici de interogare: SELECT * pentru a obține toate datele din tabele; SELECT pe coloane specifice pentru a obține informații detaliate; filtrări cu WHERE, LIKE, AND, OR, NOT pentru a extrage date relevante; funcții agregate (AVG, SUM, COUNT, MAX, MIN) pentru a realiza analize sumative; grupare și filtrare cu GROUP BY și HAVING.
 7. Joinuri între Tabele
 Am implementat diverse tipuri de joinuri (INNER JOIN, LEFT JOIN, RIGHT JOIN, CROSS JOIN) pentru a combina date din mai multe tabele și a obține perspective complete și interconectate asupra datelor.
