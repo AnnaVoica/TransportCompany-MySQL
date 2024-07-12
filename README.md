@@ -1,10 +1,3 @@
-<html>
- <head>
-  <# **TransportCompany-MySQL**> culoarea textului <# **TransportCompany-MySQL**>
- </head>
-   <body # **TransportCompany-MySQL**="green">
-   </body>
-</html>
 # **TransportCompany-MySQL**
 
 În acest proiect, am dezvoltat o bază de date relațională pentru gestionarea activităților unei companii de transport, care include gestionarea **șoferilor, camioanelor, rutelor, clienților și comenzilor**. Proiectul a acoperit toate etapele esențiale ale dezvoltării bazei de date, de la definirea tabelelor și a relațiilor dintre acestea, până la manipularea și interogarea datelor.
