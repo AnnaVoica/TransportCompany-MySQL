@@ -40,7 +40,7 @@ camion)
 
 ### 2.Interogări ale bazei de date
 
-2.1. _DDL (Data Definition Language)_
+**2.1. _DDL (Data Definition Language)_**
 
 ➔Următoarele instrucțiuni au fost scrise în scopul crearii structurii bazei de date (CREATE INSTRUCTIONS)
 
@@ -49,13 +49,30 @@ Am folosit chei Primare și chei Secundare
 - Cheia primară (PRIMARY KEY) asigură unicitatea fiecărui rând în tabelă.
 - Cheia secundară (FOREIGN KEY) menține relațiile dintre tabele.
   
-ii.Am inserat datele cu ** INSERT INTO **, aceste instrucțiuni de inserare adaugă date în fiecare tabel în conformitate cu relațiile definite.
+ii.Am inserat datele cu **INSERT INTO**, aceste instrucțiuni de inserare adaugă date în fiecare tabel în conformitate cu relațiile definite.
 De exemplu, comanda va fi atribuită unui client, va folosi o anumită rută, va fi efectuată de un anumit șofer și va utiliza un anumit camion.
 
-➔După ce baza de date și tabelele au fost create, au fost scrise câteva instrucțiuni pentru a actualiza structura bazei de date, conform descrierii de mai jos:
+➔După crearea bazei de date și a tabelelor, am folosit câteva instrucțiuni pentru a actualiza structura bazei de date, conform descrierii de mai jos:
 - **ALTER TABLE**: util pentru modificarea structurilor tabelelor fără a le șterge și recrea. Dacă afacerea noastră de transport decide să înregistreze emailurile clienților, putem adăuga coloana Email în tabela Clienti folosind ALTER TABLE. De asemenea, putem modifica tipul de date al coloanei Telefon pentru a asigura o lungime corectă a numărului de telefon.
 - **DROP TABLE**: este folosit pentru a șterge complet o tabelă care nu mai este necesară. De exemplu, dacă decid că tabela Comenzi nu mai este necesară și vreau să o elimin complet, voi folosi DROP TABLE Comenzi.
 - **TRUNCATE TABLE**: este util pentru a goli rapid o tabelă fără a șterge structura acesteia. Dacă vreau să elimin toate comenzile din tabela Comenzi pentru a o reîncepe de la zero, voi folosi TRUNCATE TABLE Comenzi.
   
  Aceste instrucțiuni adaugă flexibilitate și capacitate de întreținere în baza de date, permițându-ne să modificăm structura tabelelor existente, să ștergem tabelele care nu mai sunt necesare și să golim tabelele de date pentru a le reutiliza.
 
+**2.2.DML (Data Manipulation Language)_**
+
+Pentru a putea folosi baza de date, am populat tabelele cu diverse date necesare pentru a efectua interogări și a manipula datele. În procesul de testare, aceste date necesare sunt identificate în faza de proiectare a testelor și create în faza de implementare a testelor.
+
+Am folosit instrucțiunilor **DML (INSERT, DELETE, UPDATE, SELECT)** pentru a adăuga, elimina, modifica și selecta date din tabele. Aceste instructiuni permitand gestionarea în mod eficient a datelor din baza de date.
+i. _Inserarea datelor_ - **INSERT**
+
+ Aceste instrucțiuni de inserare adaugă date în fiecare tabel în conformitate cu relațiile definite. De exemplu, comanda va fi atribuită unui client, va folosi o anumită rută, va fi efectuată de un anumit șofer și va utiliza un anumit camion.
+ii._Selectarea datelor_ - **SELECT**
+
+ Aceste instrucțiuni SELECT recuperează datele din baza de date conform criteriilor specificate și utilizează relațiile între tabele pentru a aduna informații complete despre comenzi, inclusiv detalii despre clienți, rute, camioane și șoferi.
+iii._Actualizarea datelor_ - **UPDATE**
+
+ Aceste instrucțiuni actualizează datele existente în funcție de id-urile specificate, permițând modificarea capacității unui camion, adresa unui client sau data unei comenzi.
+iv._Ștergerea datelor_ - **DELETE**
+
+ Aceste instrucțiuni șterg înregistrările din fiecare tabel în funcție de id-urile specificate, asigurând astfel curățarea datelor vechi sau neutilizate.
