@@ -40,5 +40,14 @@ camion)
 
 ### 2.Interogări ale bazei de date
 
-2.1. DDL (Data Definition Language)
+2.1. _DDL (Data Definition Language)_
+
 Următoarele instrucțiuni au fost scrise în scopul CREĂRII structurii bazei de date (CREATE INSTRUCTIONS)
+Am creat baza de date prin ** CREATE TABLE ** pentru cele cinci tabele _șoferilor, camioanelor, rutelor, clienților și comenzilor_.
+Am folosit chei Primare și chei Secundare
+● Cheia primară (PRIMARY KEY) asigură unicitatea fiecărui rând în tabelă.
+● Cheia secundară (FOREIGN KEY) menține relațiile dintre tabele.
+Am inserat datele cu ** INSERT INTO **, aceste instrucțiuni de inserare adaugă date în fiecare tabel în conformitate cu relațiile definite.
+De exemplu, comanda va fi atribuită unui client, va folosi o anumită rută, va fi efectuată de un anumit șofer și va utiliza un anumit camion.
+
+După ce baza de date și tabelele au fost create, au fost scrise câteva instrucțiuni ALTER pentru a actualiza structura bazei de date, conform descrierii de mai jos:
