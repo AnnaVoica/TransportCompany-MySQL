@@ -64,15 +64,38 @@ De exemplu, comanda va fi atribuită unui client, va folosi o anumită rută, va
 Pentru a putea folosi baza de date, am populat tabelele cu diverse date necesare pentru a efectua interogări și a manipula datele. În procesul de testare, aceste date necesare sunt identificate în faza de proiectare a testelor și create în faza de implementare a testelor.
 
 Am folosit instrucțiunilor **DML (INSERT, DELETE, UPDATE, SELECT)** pentru a adăuga, elimina, modifica și selecta date din tabele. Aceste instructiuni permitand gestionarea în mod eficient a datelor din baza de date.
+
 i)  _Inserarea datelor_ - **INSERT**
-
  Aceste instrucțiuni de inserare adaugă date în fiecare tabel în conformitate cu relațiile definite. De exemplu, comanda va fi atribuită unui client, va folosi o anumită rută, va fi efectuată de un anumit șofer și va utiliza un anumit camion.
+
 ii) _Selectarea datelor_ - **SELECT**
-
  Aceste instrucțiuni SELECT recuperează datele din baza de date conform criteriilor specificate și utilizează relațiile între tabele pentru a aduna informații complete despre comenzi, inclusiv detalii despre clienți, rute, camioane și șoferi.
+
 iii) _Actualizarea datelor_ - **UPDATE**
-
  Aceste instrucțiuni actualizează datele existente în funcție de id-urile specificate, permițând modificarea capacității unui camion, adresa unui client sau data unei comenzi.
-iv) _Ștergerea datelor_ - **DELETE**
 
+iv) _Ștergerea datelor_ - **DELETE**
  Aceste instrucțiuni șterg înregistrările din fiecare tabel în funcție de id-urile specificate, asigurând astfel curățarea datelor vechi sau neutilizate.
+
+### 3.DQL (Data Query Language)
+
+ Prin utilizarea funcțiilor și tehnicilor DQL, proiectul de gestionare a transporturilor devine eficient și capabil să manipuleze și să analizeze datele complex într-o manieră organizată și integrată. Fiecare instrucțiune joacă un rol esențial în menținerea integrității și a funcționalității bazei de date. Am folosit următoarele interogări care ar acoperi multiple situații potențiale din viața reală:
+- Select All **SELECT * FROM** - Selectarea tuturor coloanelor dintr-o tabelă;
+- Select Câteva Coloane **SELECT** - Selectarea unor coloane specifice dintr-o tabelă;
+- Filtrare cu **WHERE** - Filtrarea rezultatelor pe baza unei condiții;
+- Filtrare cu **LIKE** - Utilizarea LIKE căuta modele în date text;
+- Filtrare cu **AND** și **OR** - Combinarea condițiilor de filtrare;
+- Filtrare cu **NOT** - Excluderea rezultatelor care îndeplinesc o condiție;
+- Funcții Agregate - Utilizarea funcțiilor pentru a calcula valori cumulate și **GROUP BY** - Gruparea rezultatelor pentru a aplica funcții agregate;
+- Filtrare pe Funcții Agregate cu **HAVING** - Filtrarea rezultatelor grupate pe baza unei funcții agregate;
+- **INNER JOIN** - Alăturarea tabelelor pentru a selecta datele comune;
+- **LEFT JOIN** - Alăturarea tabelelor pentru a selecta toate datele din tabela stângă și datele comune din tabela dreaptă;
+- **RIGHT JOIN** - Alăturarea tabelelor pentru a selecta toate datele din tabela dreaptă și datele comune din tabela stângă;
+- **CROSS JOIN** - Crearea produsului cartezian între două tabele;
+- **LIMIT** și **ORDER BY** - Limitarea numărului de rezultate și ordonarea rezultatelor.
+
+>[!IMPORTANT]
+>Utilizarea instrucțiunilor DDL, DML și DQL pentru a crea, manipula și interoga datele din aceste tabele o gasiti detaliata si exemplificata in:
+> [INSTRUCTIUNI - TransportCompany-in-mySQL finala][(https://pages.github.com/)](https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/INSTRUCTIUNI%20-%20TransportCompany-in-mySQL%20%20finala.pdf)
+>[TransportCompany-in-mySQL][(https://pages.github.com/)](https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/TransportCompany-in-mySQL.sql)
+ 
