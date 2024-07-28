@@ -65,16 +65,16 @@ Pentru a putea folosi baza de date, am populat tabelele cu diverse date necesare
 
 Am folosit instrucțiunilor **DML (INSERT, DELETE, UPDATE, SELECT)** pentru a adăuga, elimina, modifica și selecta date din tabele. Aceste instructiuni permitand gestionarea în mod eficient a datelor din baza de date.
 
-i)  _Inserarea datelor_ - **INSERT**
+- _Inserarea datelor_ - **INSERT**
  Aceste instrucțiuni de inserare adaugă date în fiecare tabel în conformitate cu relațiile definite. De exemplu, comanda va fi atribuită unui client, va folosi o anumită rută, va fi efectuată de un anumit șofer și va utiliza un anumit camion.
 
-ii) _Selectarea datelor_ - **SELECT**
+- _Selectarea datelor_ - **SELECT**
  Aceste instrucțiuni SELECT recuperează datele din baza de date conform criteriilor specificate și utilizează relațiile între tabele pentru a aduna informații complete despre comenzi, inclusiv detalii despre clienți, rute, camioane și șoferi.
 
-iii) _Actualizarea datelor_ - **UPDATE**
+- _Actualizarea datelor_ - **UPDATE**
  Aceste instrucțiuni actualizează datele existente în funcție de id-urile specificate, permițând modificarea capacității unui camion, adresa unui client sau data unei comenzi.
 
-iv) _Ștergerea datelor_ - **DELETE**
+- _Ștergerea datelor_ - **DELETE**
  Aceste instrucțiuni șterg înregistrările din fiecare tabel în funcție de id-urile specificate, asigurând astfel curățarea datelor vechi sau neutilizate.
 
 **2.3. _DQL (Data Query Language)_**
