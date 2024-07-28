@@ -95,7 +95,7 @@ Am folosit instrucțiunilor **DML (INSERT, DELETE, UPDATE, SELECT)** pentru a ad
 - **LIMIT** și **ORDER BY** - pentru limitarea numărului de rezultate și ordonarea rezultatelor.
 
 >[!IMPORTANT]
->Utilizarea instrucțiunilor DDL, DML și DQL pentru a crea, manipula și interoga datele din cele cinci tabele _șoferilor, camioanelor, rutelor, clienților și comenzilor_tabele le gasiti detaliate si exemplificate in:
+>Utilizarea instrucțiunilor DDL, DML și DQL pentru a crea, manipula și interoga datele din cele cinci tabele _șoferilor, camioanelor, rutelor, clienților și comenzilor_ tabele le gasiti detaliate si exemplificate in:
 >
 > **[INSTRUCTIUNI - TransportCompany-in-mySQL ](https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/INSTRUCTIUNI%20-%20TransportCompany-in-mySQL%20%20finala.pdf)**
 >
