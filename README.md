@@ -13,9 +13,9 @@ Am definit chei primare pentru a asigura unicitatea fiecărui rând din tabelă 
 **3. Gestionarea Constrângerilor și Integrității Datelor**
 
 Am utilizat:
-> - **ALTER TABLE** pentru a modifica structura tabelelor, 
-> - **DROP** pentru a elimina tabele sau coloane și 
-> - **TRUNCATE** pentru a goli tabelele.
+- **ALTER TABLE** pentru a modifica structura tabelelor, 
+- **DROP** pentru a elimina tabele sau coloane și 
+- **TRUNCATE** pentru a goli tabelele.
  Am învățat cum să gestionez erorile de constrângere și să mențin integritatea datelor.
 
 **4. Revenirea la Starea Inițială**
@@ -29,10 +29,10 @@ Am folosit instrucțiuni DML ( **INSERT, DELETE, UPDATE, SELECT** ) pentru a ad�
 **6. Interogarea Datelor cu DQL**
 
 Am utilizat diverse tehnici de interogare:<br>
-> - **SELECT*** pentru a obține toate datele din tabele;<br>
-> - **SELECT** pe coloane specifice pentru a obține informații detaliate;<br> 
-> - filtrări cu **WHERE, LIKE, AND, OR, NOT** pentru a extrage date relevante;<br> 
-> - funcții agregate (**AVG, SUM, COUNT, MAX, MIN**) pentru a realiza analize sumative;<br> 
+- **SELECT*** pentru a obține toate datele din tabele;<br>
+- **SELECT** pe coloane specifice pentru a obține informații detaliate;<br> 
+- filtrări cu **WHERE, LIKE, AND, OR, NOT** pentru a extrage date relevante;<br> 
+- funcții agregate (**AVG, SUM, COUNT, MAX, MIN**) pentru a realiza analize sumative;<br> 
 > - grupare și filtrare cu **GROUP BY** și **HAVING**.
 
 **7. Joinuri între Tabele**
