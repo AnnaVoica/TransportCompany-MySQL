@@ -30,18 +30,16 @@ străine.
 Relațiile sunt de tip 1 (un client poate avea mai multe comenzi, un șofer poate prelua mai multe comenzi, un camion
 poate fi folosit pentru mai multe comenzi, o rută poate fi folosită în mai multe comenzi).
 Relațiile 1- n - explicate :
-● Tabela Clienti și Comenzi: Relație: 1-n (un client (1) poate plasa mai multe comenzi (n), dar o comandă este plasată de un singur client) .
-
+- Tabela Clienti și Comenzi: Relație: 1-n (un client (1) poate plasa mai multe comenzi (n), dar o comandă este plasată de un singur client) .
 ○ ClientID este cheia primară în tabela Clienti și cheia străină în tabela Comenzi.
-
-● Tabela Soferi și Comenzi: Relație: 1-n (un șofer (1) poate avea mai multe comenzi (n), dar o comandă este atribuită unui singur șofer)
-
+- Tabela Soferi și Comenzi: Relație: 1-n (un șofer (1) poate avea mai multe comenzi (n), dar o comandă este atribuită unui singur șofer)
 ○ SoferID este cheia primară în tabela Soferi și cheia străină în tabela Comenzi.
-● Tabela Camioane și Comenzi: Relație: 1-n (un camion (1) poate fi folosit în mai multe comenzi (n), dar o comandă este atribuită unui singur
+- Tabela Camioane și Comenzi: Relație: 1-n (un camion (1) poate fi folosit în mai multe comenzi (n), dar o comandă este atribuită unui singur
 camion)
 ○ CamionID este cheia primară în tabela Camioane și cheia străină în tabela Comenzi.
-● Tabela Rute și Comenzi: Relație: 1-n (o rută (1) poate fi folosită în mai multe comenzi (n), dar o comandă este atribuită unei singure rute)
+- Tabela Rute și Comenzi: Relație: 1-n (o rută (1) poate fi folosită în mai multe comenzi (n), dar o comandă este atribuită unei singure rute)
 ○ RutaID este cheia primară în tabela Rute și cheia străină în tabela Comenzi.
+
 Exemplu de utilizare a relațiilor:
 ➔ Un șofer poate fi atribuit unei comenzi pentru a transporta un camion pe o anumită rută către un client specific. Astfel, în tabelul
 Comenzi, vom avea chei străine care leagă fiecare comandă de un șofer, un camion, o rută și un client. Aceste relații de tip 1 permitand urmărirea
