@@ -29,27 +29,27 @@ Comenzi are referințe la Clienti (ClientID), Soferi (SoferID), Camioane (Camion
 
 Relațiile sunt de tip 1- n (un client poate avea mai multe comenzi, un șofer poate prelua mai multe comenzi, un camion poate fi folosit pentru mai multe comenzi, o rută poate fi folosită în mai multe comenzi).
 - Tabela Clienti și Comenzi: Relație: 1-n (un client (1) poate plasa mai multe comenzi (n), dar o comandă este plasată de un singur client) .
-   - ➔ ClientID este cheia primară în tabela Clienti și cheia străină în tabela Comenzi.
+   - ClientID este cheia primară în tabela Clienti și cheia străină în tabela Comenzi.
 - Tabela Soferi și Comenzi: Relație: 1-n (un șofer (1) poate avea mai multe comenzi (n), dar o comandă este atribuită unui singur șofer)
-   - ➔ SoferID este cheia primară în tabela Soferi și cheia străină în tabela Comenzi.
+   - SoferID este cheia primară în tabela Soferi și cheia străină în tabela Comenzi.
 - Tabela Camioane și Comenzi: Relație: 1-n (un camion (1) poate fi folosit în mai multe comenzi (n), dar o comandă este atribuită unui singur
 camion)
-   - ➔ CamionID este cheia primară în tabela Camioane și cheia străină în tabela Comenzi.
+   - CamionID este cheia primară în tabela Camioane și cheia străină în tabela Comenzi.
 - Tabela Rute și Comenzi: Relație: 1-n (o rută (1) poate fi folosită în mai multe comenzi (n), dar o comandă este atribuită unei singure rute)
-   - ➔ RutaID este cheia primară în tabela Rute și cheia străină în tabela Comenzi.
+   - RutaID este cheia primară în tabela Rute și cheia străină în tabela Comenzi.
 
 ### 2.Interogări ale bazei de date
 
-**2.1. _DDL (Data Definition Language)_**
+      **2.1. _DDL (Data Definition Language)_**
 
 ➔Următoarele instrucțiuni au fost scrise în scopul crearii structurii bazei de date (CREATE INSTRUCTIONS)
 
-i.Am creat baza de date prin **CREATE TABLE** pentru cele cinci tabele _șoferilor, camioanelor, rutelor, clienților și comenzilor_.
+   i.Am creat baza de date prin **CREATE TABLE** pentru cele cinci tabele _șoferilor, camioanelor, rutelor, clienților și comenzilor_.
 Am folosit chei Primare și chei Secundare
 - Cheia primară (PRIMARY KEY) asigură unicitatea fiecărui rând în tabelă.
 - Cheia secundară (FOREIGN KEY) menține relațiile dintre tabele.
   
-ii.Am inserat datele cu **INSERT INTO**, aceste instrucțiuni de inserare adaugă date în fiecare tabel în conformitate cu relațiile definite.
+   ii.Am inserat datele cu **INSERT INTO**, aceste instrucțiuni de inserare adaugă date în fiecare tabel în conformitate cu relațiile definite.
 De exemplu, comanda va fi atribuită unui client, va folosi o anumită rută, va fi efectuată de un anumit șofer și va utiliza un anumit camion.
 
 ➔După crearea bazei de date și a tabelelor, am folosit câteva instrucțiuni pentru a actualiza structura bazei de date, conform descrierii de mai jos:
@@ -59,7 +59,7 @@ De exemplu, comanda va fi atribuită unui client, va folosi o anumită rută, va
   
  Aceste instrucțiuni adaugă flexibilitate și capacitate de întreținere în baza de date, permițându-ne să modificăm structura tabelelor existente, să ștergem tabelele care nu mai sunt necesare și să golim tabelele de date pentru a le reutiliza.
 
-**2.2. _DML (Data Manipulation Language)_**
+      **2.2. _DML (Data Manipulation Language)_**
 
 Pentru a putea folosi baza de date, am populat tabelele cu diverse date necesare pentru a efectua interogări și a manipula datele. În procesul de testare, aceste date necesare sunt identificate în faza de proiectare a testelor și create în faza de implementare a testelor.
 
