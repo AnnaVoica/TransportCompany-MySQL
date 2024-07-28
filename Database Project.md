@@ -97,7 +97,7 @@ Am folosit instrucțiunilor **DML (INSERT, DELETE, UPDATE, SELECT)** pentru a ad
 >[!IMPORTANT]
 >Utilizarea instrucțiunilor DDL, DML și DQL pentru a crea, manipula și interoga datele din cele cinci tabele _șoferilor, camioanelor, rutelor, clienților și comenzilor_ le gasiti detaliate si exemplificate in:
 >
-> **[INSTRUCTIUNI - TransportCompany-in-mySQL ](https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/INSTRUCTIUNI%20-%20TransportCompany-in-mySQL%20%20finala.pdf)**
+> **[INSTRUCTIUNI - TransportCompany-in-mySQL ](https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/INSTRUCTIUNI%20-%20TransportCompany-in-mySQL.pdf)**
 >
 > **[TransportCompany-in-mySQL](https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/TransportCompany-in-mySQL.sql)**
  
