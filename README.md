@@ -33,7 +33,7 @@ Am utilizat diverse tehnici de interogare:<br>
 - **SELECT** pe coloane specifice pentru a obține informații detaliate;<br> 
 - filtrări cu **WHERE, LIKE, AND, OR, NOT** pentru a extrage date relevante;<br> 
 - funcții agregate (**AVG, SUM, COUNT, MAX, MIN**) pentru a realiza analize sumative;<br> 
-> - grupare și filtrare cu **GROUP BY** și **HAVING**.
+- grupare și filtrare cu **GROUP BY** și **HAVING**.
 
 **7. Joinuri între Tabele**
 
