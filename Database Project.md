@@ -79,7 +79,7 @@ iv) _Ștergerea datelor_ - **DELETE**
 
 **2.3. _DQL (Data Query Language)_**
 
- Prin utilizarea funcțiilor și tehnicilor DQL, proiectul de gestionare a transporturilor devine eficient și capabil să manipuleze și să analizeze datele complex într-o manieră organizată și integrată. Fiecare instrucțiune joacă un rol esențial în menținerea integrității și a funcționalității bazei de date. Am folosit următoarele interogări care ar acoperi multiple situații potențiale din viața reală:
+ Prin utilizarea instrucțiunilor DQL, gestionare proiectului de transporturi devine capabil să manipuleze și să analizeze datele complex într-o manieră organizată și integrată. Am folosit următoarele interogări si manipulari a datelor care ar acoperi multiple situații potențiale din viața reală:
 - Select All **SELECT * FROM** - Selectarea tuturor coloanelor dintr-o tabelă;
 - Select Câteva Coloane **SELECT** - Selectarea unor coloane specifice dintr-o tabelă;
 - Filtrare cu **WHERE** - Filtrarea rezultatelor pe baza unei condiții;
@@ -95,9 +95,16 @@ iv) _Ștergerea datelor_ - **DELETE**
 - **LIMIT** și **ORDER BY** - Limitarea numărului de rezultate și ordonarea rezultatelor.
 
 >[!IMPORTANT]
->Utilizarea instrucțiunilor DDL, DML și DQL pentru a crea, manipula și interoga datele din aceste tabele o gasiti detaliata si exemplificata in:
+>Utilizarea instrucțiunilor DDL, DML și DQL pentru a crea, manipula și interoga datele din cele cinci tabele _șoferilor, camioanelor, rutelor, clienților și comenzilor_tabele le gasiti detaliate si exemplificate in:
 >
 > **[INSTRUCTIUNI - TransportCompany-in-mySQL ](https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/INSTRUCTIUNI%20-%20TransportCompany-in-mySQL%20%20finala.pdf)**
 >
 > **[TransportCompany-in-mySQL](https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/TransportCompany-in-mySQL.sql)**
  
+### 3.Concluzii
+Prin utilizarea acestor funcții și tehnici SQL, proiectul de gestionare a transporturilor devine eficient și capabil să manipuleze și să analizeze datele complex într-o manieră organizată și integrată. Fiecare instrucțiune joacă un rol esențial în menținerea integrității și a funcționalității bazei de date.
+- **Structurarea și Designul Bazei de Date:** Importanța unei structuri bine definite pentru a facilita gestionarea și interogarea datelor.
+- **Integritatea Datelor:** Utilizarea cheilor primare și străine pentru a menține integritatea referențială.
+- **Manipularea și Interogarea Datelor:** Cum se folosesc eficient instrucțiunile SQL pentru a adăuga, elimina, modifica și selecta date.
+- **Complexitatea Joinurilor:** Importanța și aplicabilitatea diverselor tipuri de joinuri pentru a combina date din tabele multiple.
+- **Gestionarea Constrângerilor:** Cum se modifică structura bazei de date și se gestionează constrângerile pentru a asigura integritatea datelor.
