@@ -6,7 +6,7 @@ Instrumente utilizate: MySQL Workbench
 
 Descrierea bazei de date: 
 
-**Scopul acestui proiect este dezvoltarea unei bază de date relațională pentru gestionarea activităților unei companii de transport, care include gestionarea a cinci tabele esentiale _șoferilor, camioanelor, rutelor, clienților și comenzilor_. Proiectul acopera etapele esențiale ale dezvoltării bazei de date, de la definirea tabelelor și a relațiilor dintre acestea, până la manipularea și interogarea datelor.** 
+**Proiectul are ca scop dezvoltarea unei baze de date relațională pentru gestionarea activităților unei companii de transport, care include gestionarea a cinci tabele _șoferilor, camioanelor, rutelor, clienților și comenzilor_. Proiectul acopera etapele esențiale ale dezvoltării bazei de date, de la definirea tabelelor și a relațiilor dintre acestea, până la manipularea și interogarea datelor.** 
 
 ## Obiective:
 
@@ -38,3 +38,7 @@ camion)
 - Tabela Rute și Comenzi: Relație: 1-n (o rută (1) poate fi folosită în mai multe comenzi (n), dar o comandă este atribuită unei singure rute)
 ➔ RutaID este cheia primară în tabela Rute și cheia străină în tabela Comenzi.
 
+### 2.Interogări ale bazei de date
+
+2.1. DDL (Data Definition Language)
+Următoarele instrucțiuni au fost scrise în scopul CREĂRII structurii bazei de date (CREATE INSTRUCTIONS)
