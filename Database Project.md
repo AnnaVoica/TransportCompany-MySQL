@@ -14,8 +14,9 @@ Descrierea bazei de date:
 > - Pastrarea evidenței completă și organizată a șoferilor, camioanelor, rutelor, clienților și comenzilor.
 > - Minimizarea timpul necesar pentru accesarea și căutarea informațiilor esențiale.
 
-###1.Schema bazei de date
+### 1.Schema bazei de date
 
 Mai jos puteți găsi schema bazei de date care a fost generată prin Reverse Engineer și care conține toate tabelele și relațiile dintre ele.
+
 Tabelele sunt conectate în următorul mod:
-![tabel](C:\Users\Anna\Desktop)
+!(C:\Users\Anna\Desktop)
