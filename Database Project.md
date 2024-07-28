@@ -20,3 +20,4 @@ Mai jos puteți găsi schema bazei de date care a fost generată prin Reverse En
 
 Tabelele sunt conectate în următorul mod:
 
+![tabel](https://github.com/user-attachments/assets/972fb765-9bbd-45dc-aafc-951d8522304e)
