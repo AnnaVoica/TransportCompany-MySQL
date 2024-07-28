@@ -77,7 +77,7 @@ iii) _Actualizarea datelor_ - **UPDATE**
 iv) _Ștergerea datelor_ - **DELETE**
  Aceste instrucțiuni șterg înregistrările din fiecare tabel în funcție de id-urile specificate, asigurând astfel curățarea datelor vechi sau neutilizate.
 
-### 3.DQL (Data Query Language)
+**2.3. _DQL (Data Query Language)_**
 
  Prin utilizarea funcțiilor și tehnicilor DQL, proiectul de gestionare a transporturilor devine eficient și capabil să manipuleze și să analizeze datele complex într-o manieră organizată și integrată. Fiecare instrucțiune joacă un rol esențial în menținerea integrității și a funcționalității bazei de date. Am folosit următoarele interogări care ar acoperi multiple situații potențiale din viața reală:
 - Select All **SELECT * FROM** - Selectarea tuturor coloanelor dintr-o tabelă;
@@ -96,6 +96,8 @@ iv) _Ștergerea datelor_ - **DELETE**
 
 >[!IMPORTANT]
 >Utilizarea instrucțiunilor DDL, DML și DQL pentru a crea, manipula și interoga datele din aceste tabele o gasiti detaliata si exemplificata in:
-> [INSTRUCTIUNI - TransportCompany-in-mySQL finala][(https://pages.github.com/)](https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/INSTRUCTIUNI%20-%20TransportCompany-in-mySQL%20%20finala.pdf)
->[TransportCompany-in-mySQL][(https://pages.github.com/)](https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/TransportCompany-in-mySQL.sql)
+>
+> <https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/INSTRUCTIUNI%20-%20TransportCompany-in-mySQL%20%20finala.pdf>
+>
+> <https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/TransportCompany-in-mySQL.sql>
  
