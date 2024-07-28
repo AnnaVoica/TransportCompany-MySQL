@@ -88,11 +88,11 @@ iv) _Ștergerea datelor_ - **DELETE**
 - Filtrare cu **NOT** - pentru excluderea rezultatelor care îndeplinesc o condiție;
 - Funcții Agregate - utilizarea funcțiilor pentru a calcula valori cumulate și **GROUP BY** - pentru gruparea rezultatelor pentru a aplica funcții agregate;
 - Filtrare pe Funcții Agregate cu **HAVING** - pentru filtrarea rezultatelor grupate pe baza unei funcții agregate;
-- **INNER JOIN** - pentru alăturarea tabelelor pentru a selecta datele comune;
-- **LEFT JOIN** - pentru alăturarea tabelelor pentru a selecta toate datele din tabela stângă și datele comune din tabela dreaptă;
-- **RIGHT JOIN** - pentru alăturarea tabelelor pentru a selecta toate datele din tabela dreaptă și datele comune din tabela stângă;
+- **INNER JOIN** - alăturarea tabelelor pentru a selecta datele comune;
+- **LEFT JOIN** - alăturarea tabelelor pentru a selecta toate datele din tabela stângă și datele comune din tabela dreaptă;
+- **RIGHT JOIN** - alăturarea tabelelor pentru a selecta toate datele din tabela dreaptă și datele comune din tabela stângă;
 - **CROSS JOIN** - pentru crearea produsului cartezian între două tabele;
-- **LIMIT** și **ORDER BY** - limitarea numărului de rezultate și ordonarea rezultatelor.
+- **LIMIT** și **ORDER BY** - pentru limitarea numărului de rezultate și ordonarea rezultatelor.
 
 >[!IMPORTANT]
 >Utilizarea instrucțiunilor DDL, DML și DQL pentru a crea, manipula și interoga datele din cele cinci tabele _șoferilor, camioanelor, rutelor, clienților și comenzilor_tabele le gasiti detaliate si exemplificate in:
