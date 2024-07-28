@@ -5,7 +5,7 @@ Scopul acestui proiect este de a folosi toate cunoștințele de SQL dobândite �
 Instrumente utilizate: MySQL Workbench
 
 Descrierea bazei de date: 
-**Scopul acestui proiect este dezvoltarea unei bază de date relațională pentru gestionarea activităților unei companii de transport, care include gestionarea a cinci tabele esentiale **șoferilor, camioanelor, rutelor, clienților și comenzilor**. Proiectul acopera etapele esențiale ale dezvoltării bazei de date, de la definirea tabelelor și a relațiilor dintre acestea, până la manipularea și interogarea datelor.   
+**Scopul acestui proiect este dezvoltarea unei bază de date relațională pentru gestionarea activităților unei companii de transport, care include gestionarea a cinci tabele esentiale **șoferilor, camioanelor, rutelor, clienților și comenzilor**. Proiectul acopera etapele esențiale ale dezvoltării bazei de date, de la definirea tabelelor și a relațiilor dintre acestea, până la manipularea și interogarea datelor.** 
 
 ## Obiective:## 
 
