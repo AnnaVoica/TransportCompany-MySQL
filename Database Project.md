@@ -79,20 +79,20 @@ iv) _Ștergerea datelor_ - **DELETE**
 
 **2.3. _DQL (Data Query Language)_**
 
- Prin utilizarea instrucțiunilor DQL, gestionare proiectului de transporturi devine capabil să manipuleze și să analizeze datele complex într-o manieră organizată și integrată. Am folosit următoarele interogări si manipulari a datelor care ar acoperi multiple situații potențiale din viața reală:
-- Select All **SELECT * FROM** - Selectarea tuturor coloanelor dintr-o tabelă;
-- Select Câteva Coloane **SELECT** - Selectarea unor coloane specifice dintr-o tabelă;
-- Filtrare cu **WHERE** - Filtrarea rezultatelor pe baza unei condiții;
-- Filtrare cu **LIKE** - Utilizarea LIKE căuta modele în date text;
-- Filtrare cu **AND** și **OR** - Combinarea condițiilor de filtrare;
-- Filtrare cu **NOT** - Excluderea rezultatelor care îndeplinesc o condiție;
-- Funcții Agregate - Utilizarea funcțiilor pentru a calcula valori cumulate și **GROUP BY** - Gruparea rezultatelor pentru a aplica funcții agregate;
-- Filtrare pe Funcții Agregate cu **HAVING** - Filtrarea rezultatelor grupate pe baza unei funcții agregate;
-- **INNER JOIN** - Alăturarea tabelelor pentru a selecta datele comune;
-- **LEFT JOIN** - Alăturarea tabelelor pentru a selecta toate datele din tabela stângă și datele comune din tabela dreaptă;
-- **RIGHT JOIN** - Alăturarea tabelelor pentru a selecta toate datele din tabela dreaptă și datele comune din tabela stângă;
-- **CROSS JOIN** - Crearea produsului cartezian între două tabele;
-- **LIMIT** și **ORDER BY** - Limitarea numărului de rezultate și ordonarea rezultatelor.
+ Prin utilizarea instrucțiunilor DQL in gestionarea proiectului de transport devine usor si eficient să se manipuleze și să se analizeze datele complexe într-o manieră organizată și integrată. Am folosit următoarele interogări si manipulari a datelor care ar acoperi multiple situații potențiale din viața reală:
+- Select All **SELECT * FROM** - pentru selectarea tuturor coloanelor dintr-o tabelă;
+- Select Câteva Coloane **SELECT** - pentru selectarea unor coloane specifice dintr-o tabelă;
+- Filtrare cu **WHERE** - pentru filtrarea rezultatelor pe baza unei condiții;
+- Filtrare cu **LIKE** - utilizarea LIKE pentru căutarea unui model specific în cadrul unei coloane de tip text; 
+- Filtrare cu **AND** și **OR** - pentru combinarea condițiilor de filtrare;
+- Filtrare cu **NOT** - pentru excluderea rezultatelor care îndeplinesc o condiție;
+- Funcții Agregate - utilizarea funcțiilor pentru a calcula valori cumulate și **GROUP BY** - pentru gruparea rezultatelor pentru a aplica funcții agregate;
+- Filtrare pe Funcții Agregate cu **HAVING** - pentru filtrarea rezultatelor grupate pe baza unei funcții agregate;
+- **INNER JOIN** - pentru alăturarea tabelelor pentru a selecta datele comune;
+- **LEFT JOIN** - pentru alăturarea tabelelor pentru a selecta toate datele din tabela stângă și datele comune din tabela dreaptă;
+- **RIGHT JOIN** - pentru alăturarea tabelelor pentru a selecta toate datele din tabela dreaptă și datele comune din tabela stângă;
+- **CROSS JOIN** - pentru crearea produsului cartezian între două tabele;
+- **LIMIT** și **ORDER BY** - limitarea numărului de rezultate și ordonarea rezultatelor.
 
 >[!IMPORTANT]
 >Utilizarea instrucțiunilor DDL, DML și DQL pentru a crea, manipula și interoga datele din cele cinci tabele _șoferilor, camioanelor, rutelor, clienților și comenzilor_tabele le gasiti detaliate si exemplificate in:
