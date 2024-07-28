@@ -53,9 +53,9 @@ ii) Am inserat datele cu **INSERT INTO**, aceste instrucțiuni de inserare adaug
 De exemplu, comanda va fi atribuită unui client, va folosi o anumită rută, va fi efectuată de un anumit șofer și va utiliza un anumit camion.
 
 ➔După crearea bazei de date și a tabelelor, am folosit câteva instrucțiuni pentru a actualiza structura bazei de date, conform descrierii de mai jos:
-- **ALTER TABLE**: util pentru modificarea structurilor tabelelor fără a le șterge și recrea. Dacă afacerea noastră de transport decide să înregistreze emailurile clienților, putem adăuga coloana Email în tabela Clienti folosind ALTER TABLE. De asemenea, putem modifica tipul de date al coloanei Telefon pentru a asigura o lungime corectă a numărului de telefon.
+- **ALTER TABLE**: folosit pentru modificarea structurilor tabelelor fără a le șterge și recrea. Dacă afacerea noastră de transport decide să înregistreze emailurile clienților, putem adăuga coloana Email în tabela Clienti folosind ALTER TABLE. De asemenea, putem modifica tipul de date al coloanei Telefon pentru a asigura o lungime corectă a numărului de telefon.
 - **DROP TABLE**: este folosit pentru a șterge complet o tabelă care nu mai este necesară. De exemplu, dacă decid că tabela Comenzi nu mai este necesară și vreau să o elimin complet, voi folosi DROP TABLE Comenzi.
-- **TRUNCATE TABLE**: este util pentru a goli rapid o tabelă fără a șterge structura acesteia. Dacă vreau să elimin toate comenzile din tabela Comenzi pentru a o reîncepe de la zero, voi folosi TRUNCATE TABLE Comenzi.
+- **TRUNCATE TABLE**: folosit pentru a goli rapid o tabelă fără a șterge structura acesteia. Dacă vreau să elimin toate comenzile din tabela Comenzi pentru a o reîncepe de la zero, voi folosi TRUNCATE TABLE Comenzi.
   
  Aceste instrucțiuni adaugă flexibilitate și capacitate de întreținere în baza de date, permițându-ne să modificăm structura tabelelor existente, să ștergem tabelele care nu mai sunt necesare și să golim tabelele de date pentru a le reutiliza.
 
