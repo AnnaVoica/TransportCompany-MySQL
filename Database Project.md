@@ -97,7 +97,7 @@ iv) _Ștergerea datelor_ - **DELETE**
 >[!IMPORTANT]
 >Utilizarea instrucțiunilor DDL, DML și DQL pentru a crea, manipula și interoga datele din aceste tabele o gasiti detaliata si exemplificata in:
 >
-> <https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/INSTRUCTIUNI%20-%20TransportCompany-in-mySQL%20%20finala.pdf>
+> **[INSTRUCTIUNI - TransportCompany-in-mySQL ](https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/INSTRUCTIUNI%20-%20TransportCompany-in-mySQL%20%20finala.pdf)**
 >
-> <https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/TransportCompany-in-mySQL.sql>
+> **[TransportCompany-in-mySQL](https://github.com/AnnaVoica/TransportCompany-MySQL/blob/main/TransportCompany-in-mySQL.sql)**
  
